@@ -3,7 +3,7 @@
  * Plugin Name: WC Export Customers
  * Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
  * Description: Export the list of customers in .csv format
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Leandro Cunha aka. Frango
  * Author URI: https://github.com/leandrocunha
  * License: A short license name. Example: GPL2
