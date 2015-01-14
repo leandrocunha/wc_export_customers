@@ -22,7 +22,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	$customers = get_users( 'blog_id=1&role=customer' );
 	$sitename = sanitize_key( get_bloginfo( 'name' ) );
     $filename = ( !empty($sitename) ) ? $sitename . '.' . date('ymdHis', time()) . '.csv' : date('ymdHis', time()) . '.csv';
-    $users = [];
+    $users = array();
 
 	// echo '<pre>';
 	// print_r( $customers );
